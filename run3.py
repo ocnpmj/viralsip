@@ -49,7 +49,7 @@ time.sleep(5)
 for title in titles:
     try:
         modif_kata = title.replace(' ', '_')
-        kw = f'New latest {title} Viral MMS Video ({random_string(5)})'
+        kw = f'[ORIGINAL++] {title} Leaked Viral Video ({random_string(5)})'
 
         konten = f'''
         29 minutes ago - Access {title} Leaked viral New Updaload FIles 2025
