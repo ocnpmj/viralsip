@@ -26,11 +26,11 @@ start_row =0  # Baris pertama (0-based index)
 end_row = 32  # Baris terakhir yang ingin diproses
 
 # Deklarasi akun tunggal
-email = "agribasaibraha"
+email = "tigermanohasa"
 password = "@@Eskepal123"
 
 # Baca judul video sesuai rentang yang diinginkan
-titles = read_csv_range("data.csv", start_row, end_row)
+titles = read_csv_range("data2.csv", start_row, end_row)
 
 # Inisialisasi WebDriver
 driver = webdriver.Chrome()
@@ -49,7 +49,7 @@ time.sleep(5)
 for title in titles:
     try:
         modif_kata = title.replace(' ', '_')
-        kw = f'[ORIGINAL++] {title} Leaked Viral Video ({random_string(5)})'
+        kw = f'{title} Viral Video ({random_string(5)})'
 
         konten = f'''
         29 minutes ago - Access {title} Leaked viral New Updaload FIles 2025
