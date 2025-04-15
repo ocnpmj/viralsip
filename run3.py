@@ -26,7 +26,7 @@ start_row =0  # Baris pertama (0-based index)
 end_row = 145  # Baris terakhir yang ingin diproses
 
 # Deklarasi akun tunggal
-email = "cwickgcobiebu"
+email = "adorakindeda"
 password = "@@Eskepal123"
 
 # Baca judul video sesuai rentang yang diinginkan
@@ -49,7 +49,7 @@ time.sleep(5)
 for title in titles:
     try:
         modif_kata = title.replace(' ', '_')
-        kw = f'[TOP++] {title} ({random_string(5)})'
+        kw = f'[NEW++] {title} ({random_string(5)})'
 
         konten = f'''
         29 minutes ago - Access {title} Leaked viral New Updaload FIles 2025
