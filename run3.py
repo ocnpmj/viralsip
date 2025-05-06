@@ -26,7 +26,7 @@ start_row =0  # Baris pertama (0-based index)
 end_row = 145  # Baris terakhir yang ingin diproses
 
 # Deklarasi akun tunggal
-email = "diczkuethien"
+email = "VivianInthong"
 password = "@@Eskepal123"
 
 # Baca judul video sesuai rentang yang diinginkan
